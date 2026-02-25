@@ -7,9 +7,15 @@ body {
     font-family: monospace;
     font-weight: bold;
     color: #ffffff;
-    text-shadow: 1px 1px 0px rgba(255, 200, 255), -1px -1px 0px rgba(255, 0, 0, 100);
+    text-shadow: 1px 1px 0px rgba(0, 255, 255), -1px -1px 0px rgba(255, 0, 0, 100);
     cursor:url(zayd.pw), auto;
-
+    /*
+    * aqua equals = rgba(0, 255, 255)
+    * pink equals = rga (255, 0, 255)
+    *
+    * blue backdrop text shadowing equals = -1px -1px 0px rgba(255, 255, 255, 100); 
+    * 
+    */
 }
 
 video#video { 
