@@ -18,6 +18,10 @@ body {
     */
 }
 
+#clockDisplay {
+    font-size: 15px !important;
+}
+
 video#video { 
   position: fixed;
   top: 50%;
