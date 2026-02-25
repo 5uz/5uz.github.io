@@ -162,7 +162,7 @@ a {
 
 @media (max-width: 767px) {
   body {
-    font-size: 18px; /* Increase base font size */
+    font-size: 6px; /* Increase base font size */
   }
   h1 {
     font-size: 2em; /* Increase heading size */
