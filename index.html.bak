@@ -1,5 +1,8 @@
 
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	
         <link rel="icon" href="oni.png">
@@ -96,7 +99,7 @@ setInterval(rtcScript, 2000);</script><style>
 
 <!--Main -->
     <div id="center">
-	<div class="glitch" data-text="    AYD!">   Z</div>
+	<div class="glitch" data-text="     ÄYD!">    Z</div>
 	
 <!--Marquee Links -->
 <pre>
@@ -125,7 +128,7 @@ setInterval(rtcScript, 2000);</script><style>
 
 <!--Time -->
 	<div class="animated fadeInUp">
-	<pre><center><div id="clockDisplay" class="clockStyle">07:27:18 PM</div></center></pre><font size="4.5">
+	<pre><center><div id="clockDisplay" class="clockStyle">07:27:18 PM</div></center></pre><font size="8.5">
 
 
 	
@@ -161,19 +164,22 @@ setInterval(rtcScript, 2000);</script><style>
 			
 	<!--Clock Font Size -->
 		</script>
-		  </font></div><font size="4.5">
-			</font></div><font size="4.5">
+		  </font></div><font size="7.5">
+			</font>
+		</div><font size="7.5">
 			    <center><div id="clockDisplay" class="clockStyle"></div></center>
 				<!--Clock Font Size -->
-<!--Video -->
-    </video>
-    <video width="640" height="360" autoplay="autoplay" loop="" id="video">
-      <source src="video.mp4" type="video/mp4">
-             <script>
-		var audio = document.currentScript.parentElement;
-		audio.volume = 0.5;
-		</script>
-    </video>
+<!--Background Imagine -->
+<style>
+	body 
+	{
+		background-image: url("background.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100;
+	}
+</style>
+
 		
 <!--Disables: Right Click, F12, CTRL+U, ETC -->
 <script language="JavaScript">
