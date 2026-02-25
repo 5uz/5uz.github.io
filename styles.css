@@ -7,8 +7,9 @@ body {
     font-family: monospace;
     font-weight: bold;
     color: #ffffff;
-    text-shadow: 1px 1px 0px rgba(20, 255, 130), -1px -1px 0px rgba(255, 0, 0, 100);
-	cursor:url(leeam.cur), auto;
+    text-shadow: 1px 1px 0px rgba(255, 120, 90), -1px -1px 0px rgba(255, 0, 0, 100);
+    cursor:url(zayd.pw), auto;
+
 }
 
 video#video { 
@@ -157,6 +158,15 @@ a {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim 2s infinite linear alternate-reverse;
 }
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
 
 @keyframes noise-anim-2 {
   0% {
