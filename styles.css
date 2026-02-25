@@ -160,12 +160,18 @@ a {
 }
 
 
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 40px;
-    }
+@media (max-width: 767px) {
+  body {
+    font-size: 18px; /* Increase base font size */
+  }
+  h1 {
+    font-size: 2em; /* Increase heading size */
+  }
+  .content-container {
+    width: 100%; /* Ensure content fills the screen */
+    padding: 10px;
+  }
 }
-
 
 
 @keyframes noise-anim-2 {
