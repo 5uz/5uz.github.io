@@ -168,7 +168,7 @@ a {
     font-size: 2em; /* Increase heading size */
   }
   .content-container {
-    width: 100%; /* Ensure content fills the screen */
+    width: 50%; /* Ensure content fills the screen */
     padding: 10px;
   }
 }
